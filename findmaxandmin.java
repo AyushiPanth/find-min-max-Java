@@ -4,14 +4,14 @@
 package findmaxandmin;
 
 import java.util.Random;
-
+import java.lang.*;
 /*
  * The program was created to find the largest and smallest number in an array
  */
 
 public class findmaxandmin {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)throws IOException {
 		
 		int[] anarray;
 		int index, size;
